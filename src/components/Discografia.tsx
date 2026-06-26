@@ -46,9 +46,9 @@ export const albums: Album[] = [
 const styleButton80 = "px-4 py-2 rounded-none bg-gradient-to-b from-fuchsia-400 via-fuchsia-600 to-purple-700 text-white uppercase tracking-[0.2em] border-2 border-fuchsia-200 shadow-[0_0_1px_#ff00ff,0_0_6px_#ff00ff,0_0_18px_#ff00ff] [text-shadow:0_0_2px_#fff] transition-all duration-300 hover:scale-103 hover:cursor-pointer hover:shadow-[0_0_15px_#ff00ff,0_0_12px_#ff00ff,0_0_20px_#ff00ff]"
 
 export const Discografia = () => {
-
+ 
     return (
-        <section id="discografia" className="scroll-mt-8 relative min-h-screen w-full overflow-hidden py-15 px-4 sm:px-6 lg:px-8">
+        <section id="discografia" className="scroll-mt-8 relative min-h-screen w-full overflow-hidden py-15 sm:px-1 lg:px-8">
 
             <img
                 className='inset-0 bg-cover bg-center fixed h-full object-cover object-center -z-20 left-0 w-screen border-0'
