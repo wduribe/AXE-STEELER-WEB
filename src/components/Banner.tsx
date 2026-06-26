@@ -55,7 +55,7 @@ export const Banner = () => {
             id="inicio"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            className="relative w-full h-screen   overflow-hidden"
+            className="relative w-full h-dvh overflow-hidden"
         >
             {
                 slides.map((slide, index) => (
